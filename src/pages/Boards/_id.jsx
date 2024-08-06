@@ -1,13 +1,12 @@
 import Container from '@mui/material/Container'
 
-import AppBar from '~/components/AppBar'
-
 import BoardBar from './BoardBar'
+import AppBar from '~/components/AppBar'
 import BoardContent from './BoardContent'
 
 function Board() {
   return (
-    <Container disableGutters maxWidth={false} sx={{ backgroundColor: 'black', height: '100vh' }}>
+    <Container disableGutters maxWidth={false} sx={{ height: '100vh' }}>
       <AppBar />
       <BoardBar />
       <BoardContent />
